@@ -1,0 +1,29 @@
+{
+  "name": "notion-sync",
+  "version": "0.0.1",
+  "private": true,
+  "description": "Easily sync a Notion space to something else",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/darobin/notion-sync.git"
+  },
+  "eslintConfig": {
+    "extends": "robin"
+  },
+  "author": "Robin Berjon <robin@berjon.com>",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/darobin/notion-sync/issues"
+  },
+  "homepage": "https://github.com/darobin/notion-sync#readme",
+  "dependencies": {
+    "notion-client": "^4.3.2"
+  },
+  "devDependencies": {
+    "eslint-config-robin": "^6.2.0"
+  }
+}
